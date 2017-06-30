@@ -21,8 +21,9 @@ if ($handle) {
 } else {
 	// error opening the file.
 }
-
-
+// var_dump($types);
+// var_dump($dimensions);
+// die;
 $handle = fopen ( $source, 'r' );
 
 global $triples;
@@ -64,7 +65,7 @@ function v($column, $line){
 }
 function d($dimension, $type){
 	global $types,$dimensions;
-	return ($dimensions[$dimension][array_search($type, $types)] == 'T');
+	return ($dimensions[$dimension][array_search($type, $types)] == 'Y');
 }
 $ns = "http://data.open.ac.uk/mudow/";
 if ($handle) {
