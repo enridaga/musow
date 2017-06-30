@@ -94,6 +94,7 @@ if ($handle) {
 		// "ID: URL",
 		triple ( $ID, 'http://www.w3.org/ns/dcat#landingPage', v("ID: URL", $line) );
 		triple( $ID, 'http://purl.org/dc/terms/identifier', $md5);
+		$t = v("Resource type",$line );
 		
 		// "Project",
 		triple ( $ID, $ns . 'ontology/project', v("Project",$line));
@@ -109,7 +110,6 @@ if ($handle) {
 		// "Resource type",
 		triple ( $ID, $ns . 'ontology/item/resourceType', v("Resource type",$line ));
 		triple ( $ID, $ns . 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', $ns . 'type/' . v("Resource type",$line ), 'uri');
-		$t = v("Resource type",$line );
 		
 		// "Category",
 		triple ( $ID, $ns . 'ontology/category', $ns . 'category/' . v("Category",$line ) , 'uri');
