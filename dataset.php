@@ -1,6 +1,27 @@
 <?php
 require_once 'arc2-2.2.4/ARC2.php';
 $source = "https://docs.google.com/spreadsheets/d/1DNIRiQTcs8ZJ2ELm6vBMgTyHyhPO1Kh4mCEWRKr3vlM/pub?output=csv";
+$dimensionsFile = "https://docs.google.com/spreadsheets/d/1DNIRiQTcs8ZJ2ELm6vBMgTyHyhPO1Kh4mCEWRKr3vlM/pub?gid=275215384&single=true&output=csv";
+
+// Prepare dimensions
+$handle = fopen ( $dimensionsFile, 'r' );
+if ($handle) {
+	$first = TRUE;
+	global $types, $dimensions;
+	$types = FALSE;
+	while ( ($line = fgetcsv ( $handle )) !== false ) {
+		if ($first) {
+			$first = FALSE;
+			$types = $line;
+			continue;
+		}
+		$dimensions[$line[0]] = $line;
+	}	
+	fclose ( $handle );
+} else {
+	// error opening the file.
+}
+
 
 $handle = fopen ( $source, 'r' );
 
@@ -41,6 +62,10 @@ function v($column, $line){
 	global $index;
 	return $line[array_search($column, $index)];
 }
+function d($dimension, $type){
+	global $types,$dimensions;
+	return ($dimensions[$dimension][array_search($type, $types)] == 'T');
+}
 $ns = "http://data.open.ac.uk/mudow/";
 if ($handle) {
 	$first = TRUE;
@@ -77,41 +102,44 @@ if ($handle) {
 		triple ( $ID, $ns . 'ontology/searchCriterion', v("Search Criterion",$line ));
 		// "Research Questions",
 		triple ( $ID, $ns . 'ontology/researchQuestions', v("Research Questions",$line));
-		// "Item:Resource example",
+		if(d("Item:Resource example",$t))
 		triple ( $ID, $ns . 'ontology/item/resourceExample', v("Item:Resource example",$line));
 		// "Reused resource",
 		triple ( $ID, $ns . 'ontology/item/reusedResource', v("Reused resource",$line));
 		// "Resource type",
 		triple ( $ID, $ns . 'ontology/item/resourceType', v("Resource type",$line ));
+		triple ( $ID, $ns . 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', $ns . 'type/' . v("Resource type",$line ), 'uri');
+		$t = v("Resource type",$line );
+		
 		// "Category",
 		triple ( $ID, $ns . 'ontology/category', $ns . 'category/' . v("Category",$line ) , 'uri');
 		
 		// "Type: Collection",
-		literal ( $ID, $ns . 'ontology/type/collection', (v("Type: Collection",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Type: Specification",
-		literal ( $ID, $ns . 'ontology/type/specification', (v("Type: Specification",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Affordance: Is playable?",
+		if(d("Type: Collection",$t)) literal ( $ID, $ns . 'ontology/type/collection', (v("Type: Collection",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
+
+		if(d("Type: Specification",$t)) literal ( $ID, $ns . 'ontology/type/specification', (v("Type: Specification",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
+		if(d("Affordance: Is playable?",$t))
 		literal ( $ID, $ns . 'ontology/affordance/playable', (v("Affordance: Is playable?",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
 		
-		// "Purpose: Learning",
+		if(d("Purpose: Learning",$t))
 		literal ( $ID, $ns . 'ontology/purpose/learning', (v("Purpose: Learning",$line ) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
 		
-		// "Purpose: Research",
+		if(d("Purpose: Research",$t))
 		literal ( $ID, $ns . 'ontology/purpose/research', (v("Purpose: Research",$line)== 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
 		
-		// "Scope: Temporal",
+		if(d("Scope: Temporal",$t))
 		literal ( $ID, $ns . 'ontology/scope/temporal', (v("Scope: Temporal",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Scope: Geographical",
+		if(d("Scope: Geographical",$t))
 		literal ( $ID, $ns . 'ontology/scope/geographical', (v("Scope: Geographical",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Scope: Genre",
+		if(d("Scope: Genre",$t))
 		literal ( $ID, $ns . 'ontology/scope/genre', (v("Scope: Genre",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Scope: Artist",
+		if(d("Scope: Artist",$t))
 		literal ( $ID, $ns . 'ontology/scope/artist', (v("Scope: Artist",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Scope: Formats",
+		if(d("Scope: Formats",$t))
 		triple ( $ID, $ns . 'ontology/scope/formats', v("Scope: Formats",$line ));
-		// "Scope: MO type",
+		if(d("Scope: MO type",$t))
 		triple ( $ID, $ns . 'ontology/scope/musicOntologyType', v("Scope: MO type",$line) ); // Use music ontology URI
-		// "Scope: Object type",
+		if(d("Scope: Object type",$t))
 		triple ( $ID, $ns . 'ontology/scope/objectType', v("Scope: Object type",$line) );
 		
 		// "Access: Public",
@@ -120,48 +148,48 @@ if ($handle) {
 		triple ( $ID, $ns . 'ontology/access/license', v("Access: license",$line  ) );
 		// "Access: Free/Charged",
 		triple ( $ID, $ns . 'ontology/access/type', v("Access: Free/Charged", $line ) );
-		// "Format: Interoperable?",
+		if(d("Format: Interoperable?",$t))
 		literal( $ID, $ns . 'ontology/format/interperable', (v("Format: Interoperable?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: Human consumption?",
+		if(d("Interface: Human consumption?",$t))
 		literal( $ID, $ns . 'ontology/interface/human', (v("Interface: Human consumption?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: API?",
+		if(d("Interface: API?",$t))
 		literal( $ID, $ns . 'ontology/interface/api', (v("Interface: API?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: SPARQL endpoint?",
+		if(d("Interface: SPARQL endpoint?",$t))
 		literal( $ID, $ns . 'ontology/interface/sparql', (v("Interface: SPARQL endpoint?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "SPARQL endpoint URI",
+		if(d("SPARQL endpoint URI",$t))
 		literal( $ID, $ns . 'ontology/sparqlEndpoint', (v("SPARQL endpoint URI",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: Data Dump?",
+		if(d("Interface: Data Dump?",$t))
 		literal( $ID, $ns . 'ontology/interface/dump', (v("Interface: Data Dump?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: Is it queryable?",
+		if(d("Interface: Is it queryable?",$t))
 		literal( $ID, $ns . 'ontology/interface/queryable', (v("Interface: Is it queryable?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Interface: Browsable?",
+		if(d("Interface: Browsable?",$t))
 		literal( $ID, $ns . 'ontology/interface/browsable', (v("Interface: Browsable?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Collection: Size",
+		if(d("Collection: Size",$t))
 		triple( $ID, $ns . 'ontology/collection/size', (v("Collection: Size",$line)));
-		// "Data size",
+		if(d("Data size",$t))
 		triple( $ID, $ns . 'ontology/data/size', (v("Data size",$line)));
-		// "Symbolic: Machine readable?",
+		if(d("Symbolic: Machine readable?",$t))
 		literal( $ID, $ns . 'ontology/symbolic/machineReadable', (v("Symbolic: Machine readable?",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Melody",
+		if(d("Feature: Melody",$t))
 		literal( $ID, $ns . 'ontology/feature/melody', (v("Feature: Melody",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
 		
-		// "Feature: Harmony",
+		if(d("Feature: Harmony",$t))
 		literal( $ID, $ns . 'ontology/feature/harmony', (v("Feature: Harmony",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Lyrics",
+		if(d("Feature: Lyrics",$t))
 		literal( $ID, $ns . 'ontology/feature/lyrics', (v("Feature: Lyrics",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Rhythm",
+		if(d("Feature: Rhythm",$t))
 		literal( $ID, $ns . 'ontology/feature/rhythm', (v("Feature: Rhythm",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Timbre",
+		if(d("Feature: Timbre",$t))
 		literal( $ID, $ns . 'ontology/feature/timbre', (v("Feature: Timbre",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Contour/Shape",
+		if(d("Feature: Contour/Shape",$t))
 		literal( $ID, $ns . 'ontology/feature/shape', (v("Feature: Contour/Shape",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Structure",
+		if(d("Feature: Structure",$t))
 		literal( $ID, $ns . 'ontology/feature/structure', (v("Feature: Structure",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Feature: Descriptive Metadata",
+		if(d("Feature: Descriptive Metadata",$t))
 		literal( $ID, $ns . 'ontology/feature/metadata', (v("Feature: Descriptive Metadata",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		// "Situation/Task",
+		if(d("Situation/Task",$t))
 		triple( $ID, $ns . 'ontology/situation/task', v("Situation/Task", $line));
-		// "Target audience");
+		if(d("Target audience",$t))
 		triple( $ID, $ns . 'ontology/situation/target', v("Target audience", $line));
 	}
 	
