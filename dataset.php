@@ -136,8 +136,12 @@ if ($handle) {
 		literal ( $ID, $ns . 'ontology/scope/genre', (v("Scope: Genre",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
 		if(d("Scope: Artist",$t))
 		literal ( $ID, $ns . 'ontology/scope/artist', (v("Scope: Artist",$line) == 'T' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
-		if(d("Scope: Formats",$t))
-		triple ( $ID, $ns . 'ontology/scope/formats', v("Scope: Formats",$line ));
+		if(d("Scope: Formats",$t)){
+			$fff = explode(',',v("Scope: Formats",$line ));
+			foreach($fff as $f){
+				triple ( $ID, $ns . 'ontology/scope/format', trim($f));
+			}
+		}
 		if(d("Scope: MO type",$t))
 		triple ( $ID, $ns . 'ontology/scope/musicOntologyType', v("Scope: MO type",$line) ); // Use music ontology URI
 		if(d("Scope: Object type",$t))
@@ -188,10 +192,18 @@ if ($handle) {
 		literal( $ID, $ns . 'ontology/feature/structure', (v("Feature: Structure",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
 		if(d("Feature: Descriptive Metadata",$t))
 		literal( $ID, $ns . 'ontology/feature/metadata', (v("Feature: Descriptive Metadata",$line)=='T'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		if(d("Situation/Task",$t))
-		triple( $ID, $ns . 'ontology/situation/task', v("Situation/Task", $line));
-		if(d("Target audience",$t))
-		triple( $ID, $ns . 'ontology/situation/target', v("Target audience", $line));
+		if(d("Situation/Task",$t)){
+			$sss = explode(';', v("Situation/Task", $line));
+			foreach($sss as $s){
+				triple( $ID, $ns . 'ontology/situation/task', trim($s));
+			}
+		}
+		if(d("Target audience",$t)){
+			$aaa = explode(';', v("Target audience", $line));
+			foreach($aaa as $a){
+				triple( $ID, $ns . 'ontology/situation/target', trim($a));
+			}
+		}
 	}
 	
 	fclose ( $handle );
