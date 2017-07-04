@@ -43,16 +43,9 @@
 <http://data.open.ac.uk/mudow/type/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
 <http://data.open.ac.uk/mudow/category/Media> <http://www.w3.org/2000/01/rdf-schema#label> "Media" .
 <http://data.open.ac.uk/mudow/ontology/feature/playable> <http://www.w3.org/2000/01/rdf-schema#label> "Playable" .
-<http://data.open.ac.uk/mudow/ontology/purpose/learning> <http://www.w3.org/2000/01/rdf-schema#label> "Learning" .
 <http://data.open.ac.uk/mudow/ontology/purpose/research> <http://www.w3.org/2000/01/rdf-schema#label> "Research" .
-<http://data.open.ac.uk/mudow/ontology/scope/temporal> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal" .
-<http://data.open.ac.uk/mudow/ontology/scope/geographical> <http://www.w3.org/2000/01/rdf-schema#label> "Geographical" .
-<http://data.open.ac.uk/mudow/ontology/scope/genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
-<http://data.open.ac.uk/mudow/ontology/scope/artist> <http://www.w3.org/2000/01/rdf-schema#label> "Artist" .
 <http://data.open.ac.uk/mudow/ontology/access/public> <http://www.w3.org/2000/01/rdf-schema#label> "Public" .
-<http://data.open.ac.uk/mudow/ontology/access/restricted> <http://www.w3.org/2000/01/rdf-schema#label> "Restricted" .
 <http://data.open.ac.uk/mudow/dd3195ced9c1810388e28ca2b4eb921f> <http://www.w3.org/2000/01/rdf-schema#label> "Not specified" .
-<http://data.open.ac.uk/mudow/ontology/feature/human-consumption> <http://www.w3.org/2000/01/rdf-schema#label> "Human Consumption" .
 <http://data.open.ac.uk/mudow/ontology/feature/api> <http://www.w3.org/2000/01/rdf-schema#label> "API" .
 <http://data.open.ac.uk/mudow/ontology/feature/sparql-endpoint> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL Endpoint" .
 <http://data.open.ac.uk/mudow/ontology/feature/data-dump> <http://www.w3.org/2000/01/rdf-schema#label> "Data Dump" .
@@ -61,12 +54,7 @@
 <http://data.open.ac.uk/mudow/96a11922af7aff54bd8bcd3092e6b1e8> <http://www.w3.org/2000/01/rdf-schema#label> ">1M" .
 <http://data.open.ac.uk/mudow/ontology/feature/melody> <http://www.w3.org/2000/01/rdf-schema#label> "Melody" .
 <http://data.open.ac.uk/mudow/ontology/feature/harmony> <http://www.w3.org/2000/01/rdf-schema#label> "Harmony" .
-<http://data.open.ac.uk/mudow/ontology/feature/lyrics> <http://www.w3.org/2000/01/rdf-schema#label> "Lyrics" .
 <http://data.open.ac.uk/mudow/ontology/feature/rhythm> <http://www.w3.org/2000/01/rdf-schema#label> "Rhythm" .
-<http://data.open.ac.uk/mudow/ontology/feature/timbre> <http://www.w3.org/2000/01/rdf-schema#label> "Timbre" .
-<http://data.open.ac.uk/mudow/ontology/feature/contour-or-shape> <http://www.w3.org/2000/01/rdf-schema#label> "Contour or Shape" .
-<http://data.open.ac.uk/mudow/ontology/feature/structure> <http://www.w3.org/2000/01/rdf-schema#label> "Structure of a song" .
-<http://data.open.ac.uk/mudow/ontology/feature/descriptive-metadata> <http://www.w3.org/2000/01/rdf-schema#label> "Descriptive Metadata" .
 <http://data.open.ac.uk/mudow/46b1a8d04f074f44960c742c5e6171d0> <http://www.w3.org/2000/01/rdf-schema#label> "LOD publication" .
 <http://data.open.ac.uk/mudow/d0e29d5679840cb7cae3f1eaad54d8e9> <http://www.w3.org/2000/01/rdf-schema#label> "machine learning?" .
 <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> <http://www.w3.org/2000/01/rdf-schema#label> "researchers" .
@@ -98,7 +86,6 @@
 <http://data.open.ac.uk/mudow/item/7f22c75120113aea69f1cee3e7d56a6d> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/item/7f22c75120113aea69f1cee3e7d56a6d> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/f13f0ed4cc01ce176dc047ebb5764122> .
 <http://data.open.ac.uk/mudow/type/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service" .
-<http://data.open.ac.uk/mudow/382b0f5185773fa0f67a8ed8056c7759> <http://www.w3.org/2000/01/rdf-schema#label> "N/A" .
 <http://data.open.ac.uk/mudow/019294a404b0f082ac5f3e03c50c2d28> <http://www.w3.org/2000/01/rdf-schema#label> "data conversion" .
 <http://data.open.ac.uk/mudow/item/9c75b40ba12eb4d1ab20d4078fe0238a> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/9c75b40ba12eb4d1ab20d4078fe0238a> <http://www.w3.org/2000/01/rdf-schema#label> "ArchiveGrid" .
@@ -135,6 +122,8 @@
 <http://data.open.ac.uk/mudow/71127ce24717bc9fb7819f394045a0ee> <http://www.w3.org/2000/01/rdf-schema#label> "MuSO (Europeana), Music Aggregator" .
 <http://data.open.ac.uk/mudow/type/Catalogue> <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue" .
 <http://data.open.ac.uk/mudow/category/Metadata> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata" .
+<http://data.open.ac.uk/mudow/ontology/feature/human-consumption> <http://www.w3.org/2000/01/rdf-schema#label> "Human Consumption" .
+<http://data.open.ac.uk/mudow/ontology/feature/descriptive-metadata> <http://www.w3.org/2000/01/rdf-schema#label> "Descriptive Metadata" .
 <http://data.open.ac.uk/mudow/be4743679fc0e87d10444866fc395986> <http://www.w3.org/2000/01/rdf-schema#label> "metadata aggregation" .
 <http://data.open.ac.uk/mudow/item/295247ebeba6ac3bcaebf9bcd7f54c26> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/295247ebeba6ac3bcaebf9bcd7f54c26> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Resources for Musicology " .
@@ -169,6 +158,10 @@
 <http://data.open.ac.uk/mudow/item/295247ebeba6ac3bcaebf9bcd7f54c26> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/be4743679fc0e87d10444866fc395986> .
 <http://data.open.ac.uk/mudow/item/295247ebeba6ac3bcaebf9bcd7f54c26> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/1bf58d5547ee5ddf9217468d5e5a0aa1> <http://www.w3.org/2000/01/rdf-schema#label> "Center for Computer Assisted Research in the Humanities, Stanford University project" .
+<http://data.open.ac.uk/mudow/ontology/scope/temporal> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal" .
+<http://data.open.ac.uk/mudow/ontology/scope/geographical> <http://www.w3.org/2000/01/rdf-schema#label> "Geographical" .
+<http://data.open.ac.uk/mudow/ontology/scope/genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
+<http://data.open.ac.uk/mudow/ontology/scope/artist> <http://www.w3.org/2000/01/rdf-schema#label> "Artist" .
 <http://data.open.ac.uk/mudow/88da92e059fb13512a7846a2b487efe0> <http://www.w3.org/2000/01/rdf-schema#label> "Open Access" .
 <http://data.open.ac.uk/mudow/d54ba75fdd7848789712190653775896> <http://www.w3.org/2000/01/rdf-schema#label> "<1000" .
 <http://data.open.ac.uk/mudow/item/469971a530674a3d8ed6aab7c05e646a> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
@@ -212,6 +205,8 @@
 <http://data.open.ac.uk/mudow/4e775755cbc80b8e1049c3c75a03ab2f> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Resources for Musicology, Music Aggregator " .
 <http://data.open.ac.uk/mudow/type/Digital Library> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Library" .
 <http://data.open.ac.uk/mudow/696b031073e74bf2cb98e5ef201d4aa3> <http://www.w3.org/2000/01/rdf-schema#label> "UNKNOWN" .
+<http://data.open.ac.uk/mudow/ontology/feature/timbre> <http://www.w3.org/2000/01/rdf-schema#label> "Timbre" .
+<http://data.open.ac.uk/mudow/ontology/feature/structure> <http://www.w3.org/2000/01/rdf-schema#label> "Structure of a song" .
 <http://data.open.ac.uk/mudow/item/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2000/01/rdf-schema#label> "Online Resources for Music Scholars" .
 <http://data.open.ac.uk/mudow/item/52c752f46e29bfb84c08a57a3ceb693e> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists " .
@@ -283,6 +278,7 @@
 <http://data.open.ac.uk/mudow/e46ebc05cb2e09f7eb397d2fcdb8b2e9> <http://www.w3.org/2000/01/rdf-schema#label> "University of Bologna" .
 <http://data.open.ac.uk/mudow/5a2f4aa3e9e3f273c57e27383842e070> <http://www.w3.org/2000/01/rdf-schema#label> "CIDOCCRM" .
 <http://data.open.ac.uk/mudow/afb5d2fb351da5917f69b5fd7c028cd0> <http://www.w3.org/2000/01/rdf-schema#label> "CC-BY-NC-ND" .
+<http://data.open.ac.uk/mudow/ontology/feature/lyrics> <http://www.w3.org/2000/01/rdf-schema#label> "Lyrics" .
 <http://data.open.ac.uk/mudow/item/6d1d6e3aaf1c443bc4e23f64f4bc31bc> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/6d1d6e3aaf1c443bc4e23f64f4bc31bc> <http://www.w3.org/2000/01/rdf-schema#label> "SIMSSA OMR" .
 <http://data.open.ac.uk/mudow/item/6d1d6e3aaf1c443bc4e23f64f4bc31bc> <http://purl.org/dc/terms/description> "Optical Music Recognition tool" .
@@ -492,6 +488,7 @@
 <http://data.open.ac.uk/mudow/item/725ef5d5c500f20c6e4ce9e5c808e6b8> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/b856054ab7923b42453da97d71172577> <http://www.w3.org/2000/01/rdf-schema#label> "Josquin Research Project, Center for Computer Assisted Research in the Humanities, Stanford University project" .
 <http://data.open.ac.uk/mudow/0e0aa28e82828b1a2e2be4fca33a43e7> <http://www.w3.org/2000/01/rdf-schema#label> "Electronic and Virtual Editions, Music Aggregator" .
+<http://data.open.ac.uk/mudow/ontology/feature/contour-or-shape> <http://www.w3.org/2000/01/rdf-schema#label> "Contour or Shape" .
 <http://data.open.ac.uk/mudow/item/1b91c1b40fe539c4120363f14b1e320f> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/1b91c1b40fe539c4120363f14b1e320f> <http://www.w3.org/2000/01/rdf-schema#label> "JRP Database" .
 <http://data.open.ac.uk/mudow/item/1b91c1b40fe539c4120363f14b1e320f> <http://purl.org/dc/terms/description> "Database of sacred works, grouped by notes and voices" .
@@ -619,6 +616,7 @@
 <http://data.open.ac.uk/mudow/item/67a0f74ad7e71d096b368d679b084099> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/5f9e4a937a351528bcdaeac29810eb36> <http://www.w3.org/2000/01/rdf-schema#label> "EFRBRoo" .
 <http://data.open.ac.uk/mudow/type/Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology" .
+<http://data.open.ac.uk/mudow/382b0f5185773fa0f67a8ed8056c7759> <http://www.w3.org/2000/01/rdf-schema#label> "N/A" .
 <http://data.open.ac.uk/mudow/item/6f79999514d6d15b45b4f908b8e5af8a> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/6f79999514d6d15b45b4f908b8e5af8a> <http://www.w3.org/2000/01/rdf-schema#label> "Europeana Sounds" .
 <http://data.open.ac.uk/mudow/item/6f79999514d6d15b45b4f908b8e5af8a> <http://purl.org/dc/terms/description> "Digital library of music related documents and recordings" .
@@ -848,6 +846,7 @@
 <http://data.open.ac.uk/mudow/cfc784e19a5045db07524a7304ce6a05> <http://www.w3.org/2000/01/rdf-schema#label> "University of Virginia" .
 <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> <http://www.w3.org/2000/01/rdf-schema#label> "MuSO (Europeana)" .
 <http://data.open.ac.uk/mudow/dfc1d0e0021d351cbab6a1a46563a1fe> <http://www.w3.org/2000/01/rdf-schema#label> "MEI XML schema" .
+<http://data.open.ac.uk/mudow/ontology/purpose/learning> <http://www.w3.org/2000/01/rdf-schema#label> "Learning" .
 <http://data.open.ac.uk/mudow/8b573b4510c1a532f35f11f194252ec9> <http://www.w3.org/2000/01/rdf-schema#label> "musicology" .
 <http://data.open.ac.uk/mudow/ca9e21190858e1bf273c03d7dae27f3a> <http://www.w3.org/2000/01/rdf-schema#label> "measure annotation" .
 <http://data.open.ac.uk/mudow/item/60874ae3034515f182aab19b40a50417> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
@@ -1520,7 +1519,6 @@
 <http://data.open.ac.uk/mudow/item/db737353c820622898c173e3e8065d9c> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/a8a80a8615f3cffeb5dece9023b8ce79> <http://www.w3.org/2000/01/rdf-schema#label> "Augmented Notes" .
 <http://data.open.ac.uk/mudow/7c3d4f432577cee7ef011632c12c4e51> <http://www.w3.org/2000/01/rdf-schema#label> "Augmented Notes" .
-<http://data.open.ac.uk/mudow/95acc5af7b0a4694a81dcaa52d49642e> <http://www.w3.org/2000/01/rdf-schema#label> "<10" .
 <http://data.open.ac.uk/mudow/item/9949e404c3a3f63e8919d3f3c39edb12> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/9949e404c3a3f63e8919d3f3c39edb12> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Analysis of Large Amounts of Music Information [SALAMI]" .
 <http://data.open.ac.uk/mudow/item/9949e404c3a3f63e8919d3f3c39edb12> <http://purl.org/dc/terms/description> "analysis of 23,000 hours of digitised music, annotating music's underlying structure. Music from the Internet Archive, A Capella to Zydeco, Appalachia to Zambia, and Medieval to Post-Modern." .
@@ -2159,6 +2157,7 @@
 <http://data.open.ac.uk/mudow/item/b751e9dc07e0eeb87a5c5a59236e5ee3> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/17846c005a598007703d4e169157c596> .
 <http://data.open.ac.uk/mudow/b751e9dc07e0eeb87a5c5a59236e5ee3> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Machines" .
 <http://data.open.ac.uk/mudow/2ea472117288d5b33ba5e838cbce21f7> <http://www.w3.org/2000/01/rdf-schema#label> "European Research Council (ERC)" .
+<http://data.open.ac.uk/mudow/ontology/access/restricted> <http://www.w3.org/2000/01/rdf-schema#label> "Restricted" .
 <http://data.open.ac.uk/mudow/0a6c6d2595071d5aac404887c6f73041> <http://www.w3.org/2000/01/rdf-schema#label> "music style" .
 <http://data.open.ac.uk/mudow/item/ab931e126d791336f721a86daaf4f891> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/ab931e126d791336f721a86daaf4f891> <http://www.w3.org/2000/01/rdf-schema#label> "Music Ontology" .
@@ -3988,6 +3987,7 @@
 <http://data.open.ac.uk/mudow/item/bc3f7d8278a8a2b3b6a2664ce4748e94> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/item/bc3f7d8278a8a2b3b6a2664ce4748e94> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/770a16ae8f4ce32d63a0a72d93e54bc9> .
 <http://data.open.ac.uk/mudow/bc3f7d8278a8a2b3b6a2664ce4748e94> <http://www.w3.org/2000/01/rdf-schema#label> "Codices Electronici Sangallenses = Digital Abbey Library of St. Gallen" .
+<http://data.open.ac.uk/mudow/95acc5af7b0a4694a81dcaa52d49642e> <http://www.w3.org/2000/01/rdf-schema#label> "<10" .
 <http://data.open.ac.uk/mudow/item/cceb7045a169d6d87a951dfe013de92c> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/item/cceb7045a169d6d87a951dfe013de92c> <http://www.w3.org/2000/01/rdf-schema#label> "Codici Electronici Ecclesiae Coloniensis (CEEC)" .
 <http://data.open.ac.uk/mudow/item/cceb7045a169d6d87a951dfe013de92c> <http://purl.org/dc/terms/description> "Digitized medieval and early modern manuscript holdings of the Episcopal and Cathedral Library, K\u00F6ln." .
