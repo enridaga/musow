@@ -79,7 +79,7 @@ if ($handle) {
 			continue;
 		}
 		$md5 = md5($line[1]);
-		$ID = $ns . 'item/' . $md5; // Use Resource Name
+		$ID = $ns . $md5; // Use Resource Name
 		                            // print_r($line);
 		                            // "Person",
 		triple ( $ID, 'http://www.w3.org/2004/02/skos/core#note', 'Inserted by ' . $line [0] );
