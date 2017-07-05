@@ -93,7 +93,7 @@ if ($handle) {
 		triple ( $ID, 'http://www.w3.org/2000/01/rdf-schema#comment', v("Description", $line ) );
 		
 		// "ID: URL",
-		triple ( $ID, 'http://xmlns.com/foaf/0.1/homepage', v("ID: URL", $line),'uri', 'uri' );
+		triple ( $ID, 'http://xmlns.com/foaf/0.1/homepage', trim(v("ID: URL", $line)),'uri', 'uri' );
 		triple( $ID, 'http://purl.org/dc/terms/identifier', $md5);
 		$t = v("Resource type",$line );
 		
@@ -109,6 +109,7 @@ if ($handle) {
 		
 		// "Research Questions",
 		triple ( $ID, 'http://dbpedia.org/ontology/projectObjective', v("Research Questions",$line));
+		// Resource example
 		if(d("Item:Resource example",$t))
 		triple ( $ID, 'http://www.w3.org/2004/02/skos/core#example', v("Item:Resource example",$line),'uri', 'uri' );
 		
@@ -121,8 +122,8 @@ if ($handle) {
 		}
 		
 		// "Resource type",
-		triple ( $ID, 'http://purl.org/spar/datacite/hasGeneralResourceType', $ns . 'type/' . v("Resource type",$line ),'uri', 'uri' );
-		triple ( $ns . 'type/' . v("Resource type",$line ), 'http://www.w3.org/2000/01/rdf-schema#label', v("Resource type",$line ));
+		triple ( $ID, 'http://purl.org/spar/datacite/hasGeneralResourceType', $ns . 'type/' . md5(v("Resource type",$line )),'uri', 'uri' );
+		triple ( $ns . 'type/' . md5(v("Resource type",$line )), 'http://www.w3.org/2000/01/rdf-schema#label', v("Resource type",$line ));
 		
 		// "Category",
 		triple ( $ID, 'http://dbpedia.org/ontology/category', $ns . 'category/' . v("Category",$line ),'uri', 'uri' );
@@ -190,7 +191,10 @@ if ($handle) {
 		if(d("Scope: MO type",$t))
 		triple ( $ID, 'http://dbpedia.org/ontology/type', 'http://purl.org/ontology/mo/' . v("Scope: MO type",$line), 'uri', 'uri' ); 
 		if(d("Scope: Object type",$t))
-		triple ( $ID, 'http://dbpedia.org/ontology/type', $ns . 'ontology/object/type/', v("Scope: Object type",$line) );
+		{
+			triple ( $ID, 'http://dbpedia.org/ontology/type', $ns . 'ontology/object/type/', md5(v("Scope: Object type",$line)), 'uri', 'uri' );
+			triple ( md5(v("Scope: Object type",$line)), 'http://www.w3.org/2000/01/rdf-schema#label', v("Scope: Object type",$line));
+		}
 		
 		// "Access: Public",
 		//literal ( $ID, $ns . 'ontology/access/public', (v("Access: Public",$line)=='Y' ? 'true' : 'false'), 'http://www.w3.org/2001/XMLSchema#boolean' );
