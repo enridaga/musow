@@ -182,10 +182,12 @@ if ($handle) {
 		{	triple ($ID, 'http://www.w3.org/ns/oa#hasScope', $ns . 'ontology/scope/artist' ,'uri', 'uri'  );
 			triple ($ns . 'ontology/scope/artist', 'http://www.w3.org/2000/01/rdf-schema#label', 'Artist');
 		}
-		if(d("Scope: Formats",$t)){
+		//if(d("Scope: Formats",$t)){
+		if(strlen(v("Scope: Formats",$line)) > 0) {
 			$fff = explode(',',v("Scope: Formats",$line ));
 			foreach($fff as $f){
-				triple ( $ID, $ns . 'ontology/scope/format', $ns . trim($f), 'uri', 'uri');
+				triple ( $ID, $ns . 'ontology/scope/format', $ns . strtolower(trim($f)), 'uri', 'uri');
+				triple ( $ns . strtolower(trim($f)), 'http://www.w3.org/2000/01/rdf-schema#label', strtoupper(trim($f)) );
 			}
 		}
 		if(d("Scope: MO type",$t))
@@ -208,15 +210,19 @@ if ($handle) {
 			triple ($ns . 'ontology/access/restricted', 'http://www.w3.org/2000/01/rdf-schema#label', 'Restricted');
 		}
 		// "Access: license",
-		triple ( $ID, $ns . 'http://purl.org/dc/terms/license', $ns . md5(v("Access: license",$line  )), 'uri', 'uri');
+		triple ( $ID, 'http://purl.org/dc/terms/license', $ns . md5(v("Access: license",$line  )), 'uri', 'uri');
 		triple ($ns . md5(v("Access: license",$line  )), 'http://www.w3.org/2000/01/rdf-schema#label', v("Access: license",$line  ));
 		
 		// "Access: Free/Charged",
 		triple ( $ID, $ns . 'ontology/access/type', v("Access: Free/Charged", $line ) );
 
-		if(d("Format: Interoperable?",$t))
-		literal( $ID, $ns . 'ontology/format/interperable', (v("Format: Interoperable?",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-		
+		// if(d("Format: Interoperable?",$t))
+		// literal( $ID, $ns . 'ontology/format/interoperable', (v("Format: Interoperable?",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
+		if((v("Format: Interoperable?",$line)) === 'Y') 
+		{	triple ($ID, 'http://schema.org/featureList', $ns . 'ontology/feature/interoperable' ,'uri', 'uri'  );
+			triple ($ns . 'ontology/feature/interoperable', 'http://www.w3.org/2000/01/rdf-schema#label', 'Interoperable format');
+		}
+
 		//if(d("Interface: Human consumption?",$t))
 		//literal( $ID, $ns . 'ontology/interface/human', (v("Interface: Human consumption?",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
 		if((v("Interface: Human consumption?",$line)) === 'Y') 
@@ -265,9 +271,12 @@ if ($handle) {
 		if(d("Data size",$t))
 		triple( $ID, 'http://www.w3.org/ns/dcat#byteSize', (v("Data size",$line)));
 		
-		if(d("Symbolic: Machine readable?",$t))
-		literal( $ID, $ns . 'ontology/symbolic/machineReadable', (v("Symbolic: Machine readable?",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
-
+		// if(d("Symbolic: Machine readable?",$t))
+		//literal( $ID, $ns . 'ontology/symbolic/machineReadable', (v("Symbolic: Machine readable?",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
+		if((v("Symbolic: Machine readable?",$line)) === 'Y') 
+		{	triple ($ID, 'http://schema.org/featureList', $ns . 'ontology/feature/symbolic-machine-readable' ,'uri', 'uri'  );
+			triple ($ns . 'ontology/feature/symbolic-machine-readable', 'http://www.w3.org/2000/01/rdf-schema#label', 'Machine readable symbolic notation');
+		}
 		// Features
 		//if(d("Feature: Melody",$t))
 		//literal( $ID, $ns . 'ontology/feature/melody', (v("Feature: Melody",$line)=='Y'?'true':'false'),'http://www.w3.org/2001/XMLSchema#boolean' );
