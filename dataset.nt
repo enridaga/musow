@@ -129,7 +129,7 @@
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregator of archival descriptions" .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://xmlns.com/foaf/0.1/homepage> <https://beta.worldcat.org/archivegrid/> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/dc/terms/identifier> "9c75b40ba12eb4d1ab20d4078fe0238a" .
-<http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/1d16a7c8f3037af111cce831bbfb7010> .
+<http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d0c300781cb4a0a3f11d2f6feed446e5> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/a8567ec8887eb41c7870b3a624524a46> .
@@ -154,7 +154,7 @@
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.open.ac.uk/mudow/ontology/feature/descriptive-metadata> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/be4743679fc0e87d10444866fc395986> .
 <http://data.open.ac.uk/mudow/9c75b40ba12eb4d1ab20d4078fe0238a> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
-<http://data.open.ac.uk/mudow/1d16a7c8f3037af111cce831bbfb7010> <http://www.w3.org/2000/01/rdf-schema#label> "OCLC WorldCat " .
+<http://data.open.ac.uk/mudow/d0c300781cb4a0a3f11d2f6feed446e5> <http://www.w3.org/2000/01/rdf-schema#label> "OCLC WorldCat" .
 <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> <http://www.w3.org/2000/01/rdf-schema#label> "MuSO (Europeana)" .
 <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> <http://purl.org/dc/terms/description> "The MuSO (Music Scholarship Online) project considered the descriptive metadata needed for digital projects in music to become interoperable with these existing resources and proposed a peer reviewing mechanism that would provide quality control for the projects that would be aggregated by the MuSO VRE" .
@@ -195,8 +195,8 @@
 <http://data.open.ac.uk/mudow/c4e5b15167df732a44f730db0936edf4> <http://www.w3.org/2000/01/rdf-schema#label> "<100" .
 <http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Resources for Musicology" .
-<http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists " .
-<http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists " .
+<http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists" .
+<http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists" .
 <http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://xmlns.com/foaf/0.1/homepage> <http://drm.ccarh.org/> .
 <http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://purl.org/dc/terms/identifier> "5e5052b3f86a64237d8c71932594d3b4" .
 <http://data.open.ac.uk/mudow/5e5052b3f86a64237d8c71932594d3b4> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/1bf58d5547ee5ddf9217468d5e5a0aa1> .
@@ -276,8 +276,8 @@
 <http://data.open.ac.uk/mudow/ontology/feature/structure> <http://www.w3.org/2000/01/rdf-schema#label> "Structure of a song" .
 <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2000/01/rdf-schema#label> "Online Resources for Music Scholars" .
-<http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists " .
-<http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists " .
+<http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists" .
+<http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists" .
 <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://xmlns.com/foaf/0.1/homepage> <http://hcl.harvard.edu/research/guides/biblio/onmusic/hclweb/view/full/page/6?bib_search%5B%5D%5Bfind_form_field%5D=&bib_search%5B%5D%5Bobject%5D=&bib_search%5B%5D%5Btag%5D=resource_type&bib_search%5B%5D%5Bvalue%5D=digital+score> .
 <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://purl.org/dc/terms/identifier> "52c752f46e29bfb84c08a57a3ceb693e" .
 <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/759377a60bc05b1b2d3bcbb86d274baf> .
@@ -419,8 +419,8 @@
 <http://data.open.ac.uk/mudow/e1182c91fbcc95577f2eb5458cbad03c> <http://www.w3.org/2000/01/rdf-schema#label> "music information retrieval" .
 <http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://www.w3.org/2000/01/rdf-schema#label> "Electronic and Virtual Editions" .
-<http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists " .
-<http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists " .
+<http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://purl.org/dc/terms/description> "Catalogue of digital projects for musicologists" .
+<http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalogue of digital projects for musicologists" .
 <http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://xmlns.com/foaf/0.1/homepage> <http://eve.ccarh.org/> .
 <http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://purl.org/dc/terms/identifier> "b691aab55587269701e4238df018e6a7" .
 <http://data.open.ac.uk/mudow/b691aab55587269701e4238df018e6a7> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/1bf58d5547ee5ddf9217468d5e5a0aa1> .
@@ -865,8 +865,8 @@
 <http://data.open.ac.uk/mudow/mods/xml> <http://www.w3.org/2000/01/rdf-schema#label> "MODS/XML" .
 <http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://www.w3.org/2000/01/rdf-schema#label> "NINES" .
-<http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://purl.org/dc/terms/description> "Collection of archival documents, allowing users to collate and markup " .
-<http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of archival documents, allowing users to collate and markup " .
+<http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://purl.org/dc/terms/description> "Collection of archival documents, allowing users to collate and markup" .
+<http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of archival documents, allowing users to collate and markup" .
 <http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://xmlns.com/foaf/0.1/homepage> <http://www.nines.org/> .
 <http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://purl.org/dc/terms/identifier> "9a7305bcf50d68d2ff73566682a4210b" .
 <http://data.open.ac.uk/mudow/9a7305bcf50d68d2ff73566682a4210b> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/44c4a41cd24274373f3bcc5a069c9174> .
@@ -997,7 +997,7 @@
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://purl.org/dc/terms/identifier> "1ae295de0e4e4515fcf766df3a3f142e" .
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/60874ae3034515f182aab19b40a50417> .
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
-<http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://dbpedia.org/ontology/projectObjective> " What are the requirements of editors for a corresponding edition software?\n Which formats and structures can guarantee the durability of the digital editions created and how can they be used for electronic editions?\n What technical and ergonomic obstacles are to be overcome?\n How do the questions change to a critical edition when switching to another medium?" .
+<http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://dbpedia.org/ontology/projectObjective> "What are the requirements of editors for a corresponding edition software?\n Which formats and structures can guarantee the durability of the digital editions created and how can they be used for electronic editions?\n What technical and ergonomic obstacles are to be overcome?\n How do the questions change to a critical edition when switching to another medium?" .
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/dfc1d0e0021d351cbab6a1a46563a1fe> .
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/a00beb656b442fe0645f228e1819c692> .
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/719d067b229178f03bcfa1da4ac4dede> .
@@ -1020,7 +1020,7 @@
 <http://data.open.ac.uk/mudow/1ae295de0e4e4515fcf766df3a3f142e> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/a00beb656b442fe0645f228e1819c692> <http://www.w3.org/2000/01/rdf-schema#label> "TEI XML Schema" .
 <http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
-<http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://www.w3.org/2000/01/rdf-schema#label> "Centre for the History and Analysis of Recorded Music " .
+<http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://www.w3.org/2000/01/rdf-schema#label> "Centre for the History and Analysis of Recorded Music" .
 <http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://purl.org/dc/terms/description> "Collection of FLAC audio files of Classic music" .
 <http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of FLAC audio files of Classic music" .
 <http://data.open.ac.uk/mudow/57fba4647ce7e0b9e761f5765d80748e> <http://xmlns.com/foaf/0.1/homepage> <http://www.charm.rhul.ac.uk/sound/sound.html> .
@@ -1065,7 +1065,7 @@
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://purl.org/dc/terms/identifier> "7382ed9c43ed0a548be01ec22698715b" .
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/79e4bed39ea27a91af63b9f7ee8bb7d8> .
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
-<http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://dbpedia.org/ontology/projectObjective> " What is a musical \u2018work\u2019, and how is the \u2018work concept\u2019 that has prevailed since the midnineteenth century challenged by the Chopin sources?\n What is the best means of capturing in an edition the creative history implicit in the sources, ranging from the earliest sketches through to the last impressions of the first editions and beyond?\n How can the intellectual and logistical difficulties routinely experienced by editors in handling disparate source materials be overcome by means of technological support?\n In what ways might technology change the mode of presenting information previously contained within \u2013 or, conversely, uncontainable within \u2013 printed editions? Moreover, how might technology fundamentally alter the musician\u2019s and the musicologist\u2019s understanding of individual sources, their often complex interrelationships, and their significance as artistic and cultural artifacts within a rich history of publication, pedagogy, and performance? \nThe main outcomes of the OCVE project are as follows:\n An online musical edition demonstrating the ways in which scholarship and technology can interact to mutual advantage\n An interlinked archive of digitised manuscript and printed sources of a large body of music, all of which can be displayed in various formats\n Detailed philological descriptions written by the scholarly team\n Personal annotation tools allowing individual users to create their own virtual OCVE with personal comments at several levels of granularity, and picklists of scores or works which persist between access sessions.\nThe main outcomes of the CFEO project are as follows:\n An important body of primary source material has been comprehensively assembled for the first time, facilitating philological and stylehistorical investigation and encouraging new understanding of Chopin\u2019s compositional and publication histories.\n The Online Collection \u2013 totalling some 270 scores \u2013 provides direct access to musicians and musicologists to the Chopin first editions.\n The textanalytical commentary and online catalogue excerpts foreground the major differences between multiple first editions and their chronological and filial relationships.\n The technical outcomes are generalisable to similar projects of a musical and/or nonmusical nature and to other initiatives." .
+<http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://dbpedia.org/ontology/projectObjective> "What is a musical \u2018work\u2019, and how is the \u2018work concept\u2019 that has prevailed since the midnineteenth century challenged by the Chopin sources?\n What is the best means of capturing in an edition the creative history implicit in the sources, ranging from the earliest sketches through to the last impressions of the first editions and beyond?\n How can the intellectual and logistical difficulties routinely experienced by editors in handling disparate source materials be overcome by means of technological support?\n In what ways might technology change the mode of presenting information previously contained within \u2013 or, conversely, uncontainable within \u2013 printed editions? Moreover, how might technology fundamentally alter the musician\u2019s and the musicologist\u2019s understanding of individual sources, their often complex interrelationships, and their significance as artistic and cultural artifacts within a rich history of publication, pedagogy, and performance? \nThe main outcomes of the OCVE project are as follows:\n An online musical edition demonstrating the ways in which scholarship and technology can interact to mutual advantage\n An interlinked archive of digitised manuscript and printed sources of a large body of music, all of which can be displayed in various formats\n Detailed philological descriptions written by the scholarly team\n Personal annotation tools allowing individual users to create their own virtual OCVE with personal comments at several levels of granularity, and picklists of scores or works which persist between access sessions.\nThe main outcomes of the CFEO project are as follows:\n An important body of primary source material has been comprehensively assembled for the first time, facilitating philological and stylehistorical investigation and encouraging new understanding of Chopin\u2019s compositional and publication histories.\n The Online Collection \u2013 totalling some 270 scores \u2013 provides direct access to musicians and musicologists to the Chopin first editions.\n The textanalytical commentary and online catalogue excerpts foreground the major differences between multiple first editions and their chronological and filial relationships.\n The technical outcomes are generalisable to similar projects of a musical and/or nonmusical nature and to other initiatives." .
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://www.w3.org/2004/02/skos/core#example> <http://www.chopinonline.ac.uk/cfeo/browse/pageview/63082/> .
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/7382ed9c43ed0a548be01ec22698715b> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/33fcf2b3ec4686d9cd06051c726d0ba2> .
@@ -1207,11 +1207,11 @@
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://purl.org/dc/terms/identifier> "0a9fe3e07d51db47c6fa241adbe2b979" .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/0825b3992b6ac5f80f7d5a7bc30b6e14> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
-<http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://dbpedia.org/ontology/projectObjective> " to provide a proof of concept to demonstrate the potential of an innovative editorial technology and to deal with new issues associated with it. \n exploring the opportunities for linking to and segmenting audio recordings, the project attempted to contribute to the solution of generic issues in the acoustic field" .
+<http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://dbpedia.org/ontology/projectObjective> "to provide a proof of concept to demonstrate the potential of an innovative editorial technology and to deal with new issues associated with it. \n exploring the opportunities for linking to and segmenting audio recordings, the project attempted to contribute to the solution of generic issues in the acoustic field" .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/2004/02/skos/core#example> <http://www.freischuetz-digital.de/demos/dynamicScoreRendering/index.html> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/3e9165ff59d840b5e8936ad669cf9a8a> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/a00beb656b442fe0645f228e1819c692> .
-<http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/3dd740445523610e2c712d8864e42b37> .
+<http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/2d99e105073e51e3ac2a3a730e5f36d8> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/aa11410095a99abec522738af6b9221c> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://dbpedia.org/ontology/category> <http://data.open.ac.uk/mudow/category/Symbolic> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.open.ac.uk/mudow/ontology/type/Collection> .
@@ -1244,7 +1244,6 @@
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/619498375474d47595ee0004d9b3fe9d> .
 <http://data.open.ac.uk/mudow/0a9fe3e07d51db47c6fa241adbe2b979> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/0825b3992b6ac5f80f7d5a7bc30b6e14> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Ministry of Education and Research (Germany)" .
-<http://data.open.ac.uk/mudow/3dd740445523610e2c712d8864e42b37> <http://www.w3.org/2000/01/rdf-schema#label> "Edirom" .
 <http://data.open.ac.uk/mudow/wav> <http://www.w3.org/2000/01/rdf-schema#label> "WAV" .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://www.w3.org/2000/01/rdf-schema#label> "Linked Jazz" .
@@ -1254,7 +1253,7 @@
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://purl.org/dc/terms/identifier> "d360b29c6917de919442f2832ec978b9" .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/3060606bda5540a5ba5642ecb3772e03> .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
-<http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://dbpedia.org/ontology/projectObjective> " To uncover meaningful connections between documents and data related to the personal and professional lives of jazz artists, and\n To develop broadly applicable tools and methods for working with Linked Open Data." .
+<http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://dbpedia.org/ontology/projectObjective> "To uncover meaningful connections between documents and data related to the personal and professional lives of jazz artists, and\n To develop broadly applicable tools and methods for working with Linked Open Data." .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://www.w3.org/2004/02/skos/core#example> <http://linkedjazz.org/resource/Ella_Fitzgerald> .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/d360b29c6917de919442f2832ec978b9> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/239658e016e3d5d06ae719d280a79fec> .
@@ -1333,7 +1332,7 @@
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://purl.org/dc/terms/identifier> "19559b075b1d9855efb1a5881f2eca37" .
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/42a62cbc9f9d89d4ab913b750417a856> .
-<http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://dbpedia.org/ontology/projectObjective> " render a mean score" .
+<http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://dbpedia.org/ontology/projectObjective> "render a mean score" .
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/c2ba7e785c49050f48da9aacc45c2b85> .
 <http://data.open.ac.uk/mudow/19559b075b1d9855efb1a5881f2eca37> <http://dbpedia.org/ontology/category> <http://data.open.ac.uk/mudow/category/Symbolic> .
@@ -1378,7 +1377,6 @@
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://data.open.ac.uk/mudow/ontology/access/type> "Free" .
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://schema.org/featureList> <http://data.open.ac.uk/mudow/ontology/feature/human-consumption> .
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://schema.org/featureList> <http://data.open.ac.uk/mudow/ontology/feature/browsing> .
-<http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://data.open.ac.uk/mudow/ontology/symbolic/machineReadable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.open.ac.uk/mudow/ontology/feature/melody> .
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.open.ac.uk/mudow/ontology/feature/harmony> .
 <http://data.open.ac.uk/mudow/6337f23d2f5c6d096f4b03e39531248a> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.open.ac.uk/mudow/ontology/feature/lyrics> .
@@ -1599,7 +1597,7 @@
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/c353b37e8920a1457b1a3d2c89a5a7c3> .
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://dbpedia.org/ontology/projectObjective> "a scholarly tool to facilitate interdisciplinary music and poetry scholarship" .
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://www.w3.org/2004/02/skos/core#example> <http://www.songsofthevictorians.com/balfe/archive.html> .
-<http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/dfc1d0e0021d351cbab6a1a46563a1fe> .
+<http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/3e9165ff59d840b5e8936ad669cf9a8a> .
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/7c3d4f432577cee7ef011632c12c4e51> .
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/aa11410095a99abec522738af6b9221c> .
 <http://data.open.ac.uk/mudow/db737353c820622898c173e3e8065d9c> <http://dbpedia.org/ontology/category> <http://data.open.ac.uk/mudow/category/Symbolic> .
@@ -1667,8 +1665,8 @@
 <http://data.open.ac.uk/mudow/9949e404c3a3f63e8919d3f3c39edb12> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://www.w3.org/2000/01/rdf-schema#label> "Echonest Analyzer" .
 <http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
-<http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://purl.org/dc/terms/description> "API to analyse structural segments of audio data " .
-<http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://www.w3.org/2000/01/rdf-schema#comment> "API to analyse structural segments of audio data " .
+<http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://purl.org/dc/terms/description> "API to analyse structural segments of audio data" .
+<http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://www.w3.org/2000/01/rdf-schema#comment> "API to analyse structural segments of audio data" .
 <http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/echonest/en_analyzer> .
 <http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://purl.org/dc/terms/identifier> "ad0649c49ed03b1d50cc0b68b4d0572f" .
 <http://data.open.ac.uk/mudow/ad0649c49ed03b1d50cc0b68b4d0572f> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/927a57e0f6fab6bc6bf20de69d3c4a0e> .
@@ -1831,7 +1829,7 @@
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://www.w3.org/2000/01/rdf-schema#comment> "210 songs, mainly rock and pop music by Queen, The Beatles, and Zweieck. Chords and keys are annotated. Bass and treble chromagrams are calculated from the wave form of a song" .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://xmlns.com/foaf/0.1/homepage> <http://isophonics.net/content/automatic-annotations> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://purl.org/dc/terms/identifier> "58cab4e213570aec25e321084cbefd23" .
-<http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d2e8bdf7c0e7078ef1c3128f5ad667b4> .
+<http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/c2977ea7ba0e88508a09f9421fd2f47d> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/39528f4585af09772b20142a8043b6e5> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://www.w3.org/2004/02/skos/core#example> <http://chordtranscriptions.net/automatictranscriptions/chord/matthiasmauch/ISMIR2010/> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> .
@@ -1859,14 +1857,14 @@
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://xmlns.com/foaf/0.1/primaryTopic> <http://data.open.ac.uk/mudow/ontology/feature/descriptive-metadata> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/2a15a29e7c80933274b9ac8b9ba6bf2c> .
 <http://data.open.ac.uk/mudow/58cab4e213570aec25e321084cbefd23> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
-<http://data.open.ac.uk/mudow/d2e8bdf7c0e7078ef1c3128f5ad667b4> <http://www.w3.org/2000/01/rdf-schema#label> "OMRAS2 " .
+<http://data.open.ac.uk/mudow/c2977ea7ba0e88508a09f9421fd2f47d> <http://www.w3.org/2000/01/rdf-schema#label> "OMRAS2" .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://www.w3.org/2000/01/rdf-schema#label> "OMRAS2 Chord Ontology" .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/dc/terms/description> "Ontology for describing chords and chord sequences" .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology for describing chords and chord sequences" .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://xmlns.com/foaf/0.1/homepage> <http://motools.sourceforge.net/chord_draft_1/chord.html#symbolservice> .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/dc/terms/identifier> "91bcc791acf953f08f4c5155e200d29a" .
-<http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d2e8bdf7c0e7078ef1c3128f5ad667b4> .
+<http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/c2977ea7ba0e88508a09f9421fd2f47d> .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/39528f4585af09772b20142a8043b6e5> .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/91bcc791acf953f08f4c5155e200d29a> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/0632b1f4b2c786b373db08baf7af74d2> .
@@ -1902,7 +1900,7 @@
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://www.w3.org/2000/01/rdf-schema#comment> "Extract features from audio files and convert them in RDF" .
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://xmlns.com/foaf/0.1/homepage> <http://vamp-plugins.org/sonic-annotator/> .
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://purl.org/dc/terms/identifier> "603ef5d45db5df4394442c256ce90a75" .
-<http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d2e8bdf7c0e7078ef1c3128f5ad667b4> .
+<http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/c2977ea7ba0e88508a09f9421fd2f47d> .
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/39528f4585af09772b20142a8043b6e5> .
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/603ef5d45db5df4394442c256ce90a75> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/719d067b229178f03bcfa1da4ac4dede> .
@@ -2252,7 +2250,7 @@
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://www.w3.org/2000/01/rdf-schema#comment> "Service to retrieve RDF descriptions for chord symbols" .
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://xmlns.com/foaf/0.1/homepage> <http://motools.sourceforge.net/chord_draft_1/chord.html#symbolservice> .
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://purl.org/dc/terms/identifier> "d122e39cfb95bbebd80f3a9dbff39fb1" .
-<http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d2e8bdf7c0e7078ef1c3128f5ad667b4> .
+<http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/c2977ea7ba0e88508a09f9421fd2f47d> .
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/39528f4585af09772b20142a8043b6e5> .
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/d122e39cfb95bbebd80f3a9dbff39fb1> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/c2ba7e785c49050f48da9aacc45c2b85> .
@@ -2526,7 +2524,7 @@
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://xmlns.com/foaf/0.1/homepage> <http://dbtune.org/jamendo/> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/dc/terms/identifier> "a8ecb3d05a6044b745bb09e2b42b8567" .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
-<http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/a65b4a5c6d5afda9c8f21d2c9b54f3bf> .
+<http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/239658e016e3d5d06ae719d280a79fec> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://dbpedia.org/ontology/category> <http://data.open.ac.uk/mudow/category/Metadata> .
@@ -2551,7 +2549,6 @@
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/46b1a8d04f074f44960c742c5e6171d0> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/a8ecb3d05a6044b745bb09e2b42b8567> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/9f99697c78e088cb04e67afd7a9d1068> .
-<http://data.open.ac.uk/mudow/a65b4a5c6d5afda9c8f21d2c9b54f3bf> <http://www.w3.org/2000/01/rdf-schema#label> "DBTune " .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://www.w3.org/2000/01/rdf-schema#label> "Magnatune" .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/dc/terms/description> "temporary unavailable. RDF Dataset of the independent label." .
@@ -2559,7 +2556,7 @@
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://xmlns.com/foaf/0.1/homepage> <http://dbtune.org/magnatune/> .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/dc/terms/identifier> "5ddd73e52a067c675be515f175fdec86" .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
-<http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/a65b4a5c6d5afda9c8f21d2c9b54f3bf> .
+<http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/239658e016e3d5d06ae719d280a79fec> .
 <http://data.open.ac.uk/mudow/5ddd73e52a067c675be515f175fdec86> <http://dbpedia.org/ontology/category> <http://data.open.ac.uk/mudow/category/Metadata> .
@@ -2657,8 +2654,8 @@
 <http://data.open.ac.uk/mudow/981cf53d6da339fd560972a33e60e300> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://www.w3.org/2000/01/rdf-schema#label> "BBC Playcount Data" .
-<http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://purl.org/dc/terms/description> "RDF Dataset of playcounts of artists per episode and brands in their programmes catalogue. " .
-<http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF Dataset of playcounts of artists per episode and brands in their programmes catalogue. " .
+<http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://purl.org/dc/terms/description> "RDF Dataset of playcounts of artists per episode and brands in their programmes catalogue." .
+<http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF Dataset of playcounts of artists per episode and brands in their programmes catalogue." .
 <http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://xmlns.com/foaf/0.1/homepage> <http://dbtune.org/bbc/playcount/> .
 <http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://purl.org/dc/terms/identifier> "6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4" .
 <http://data.open.ac.uk/mudow/6a0e7c3e5a8f9f5fb8eff3e41aaa6ea4> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
@@ -2719,7 +2716,7 @@
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://www.w3.org/2000/01/rdf-schema#comment> "temporary unavailable.  A SPARQL end-point able to perform audio processing tasks to answer a particular query" .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://xmlns.com/foaf/0.1/homepage> <http://dbtune.org/henry/> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/dc/terms/identifier> "179909b745f81f03f177a3079e0ce5e3" .
-<http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/d2ee7818893a2a398bb660204cb3eeb3> .
+<http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/3a24528f259b6b298b1306f9f992ec8d> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/c2ba7e785c49050f48da9aacc45c2b85> .
@@ -2727,7 +2724,6 @@
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/dc/terms/license> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/179909b745f81f03f177a3079e0ce5e3> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
-<http://data.open.ac.uk/mudow/d2ee7818893a2a398bb660204cb3eeb3> <http://www.w3.org/2000/01/rdf-schema#label> "Henry " .
 <http://data.open.ac.uk/mudow/f15a0ab1d688b394264597053330db8c> <http://www.w3.org/2000/01/rdf-schema#label> "Music Encoding Initiative" .
 <http://data.open.ac.uk/mudow/6e6680802ede4831e80bfbf02c6332ed> <http://www.w3.org/2000/01/rdf-schema#label> "Music Annotation" .
 <http://data.open.ac.uk/mudow/rng> <http://www.w3.org/2000/01/rdf-schema#label> "RNG" .
@@ -2765,8 +2761,8 @@
 <http://data.open.ac.uk/mudow/4c691ddbbd7f0bada7c6c65303e6bdbd> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://www.w3.org/2000/01/rdf-schema#label> "music21" .
-<http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://purl.org/dc/terms/description> "Python library for music analysis and displaying " .
-<http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://www.w3.org/2000/01/rdf-schema#comment> "Python library for music analysis and displaying " .
+<http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://purl.org/dc/terms/description> "Python library for music analysis and displaying" .
+<http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://www.w3.org/2000/01/rdf-schema#comment> "Python library for music analysis and displaying" .
 <http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://xmlns.com/foaf/0.1/homepage> <http://web.mit.edu/music21> .
 <http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://purl.org/dc/terms/identifier> "9475ce00e4f0c36dd591275bcb5ec24c" .
 <http://data.open.ac.uk/mudow/9475ce00e4f0c36dd591275bcb5ec24c> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/6b6f0f012cc638cd7a6c26f5fef91d21> .
@@ -2849,8 +2845,8 @@
 <http://data.open.ac.uk/mudow/realaudio> <http://www.w3.org/2000/01/rdf-schema#label> "REALAUDIO" .
 <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://www.w3.org/2000/01/rdf-schema#label> "19th-Century American Sheet Music" .
-<http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://purl.org/dc/terms/description> "3500 digitizations of songs and instrumental pieces published in the United States from the 1830s to 1900. " .
-<http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://www.w3.org/2000/01/rdf-schema#comment> "3500 digitizations of songs and instrumental pieces published in the United States from the 1830s to 1900. " .
+<http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://purl.org/dc/terms/description> "3500 digitizations of songs and instrumental pieces published in the United States from the 1830s to 1900." .
+<http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://www.w3.org/2000/01/rdf-schema#comment> "3500 digitizations of songs and instrumental pieces published in the United States from the 1830s to 1900." .
 <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://xmlns.com/foaf/0.1/homepage> <http://www.lib.unc.edu/dc/sheetmusic/> .
 <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://purl.org/dc/terms/identifier> "6c76de398b8c2509fb117d0c6913c7ce" .
 <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/6c76de398b8c2509fb117d0c6913c7ce> .
@@ -2896,8 +2892,6 @@
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://www.w3.org/ns/oa#hasScope> <http://data.open.ac.uk/mudow/ontology/scope/artist> .
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://data.open.ac.uk/mudow/ontology/scope/format> <http://data.open.ac.uk/mudow/jpg> .
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://data.open.ac.uk/mudow/ontology/scope/format> <http://data.open.ac.uk/mudow/xml> .
-<http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://data.open.ac.uk/mudow/ontology/scope/format> <http://data.open.ac.uk/mudow/JPG> .
-<http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://data.open.ac.uk/mudow/ontology/scope/format> <http://data.open.ac.uk/mudow/XML> .
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://dbpedia.org/ontology/type> <http://purl.org/ontology/mo/Score> .
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://dbpedia.org/ontology/type> <http://data.open.ac.uk/mudow/ontology/object/type/> .
 <http://data.open.ac.uk/mudow/236fe1ec14aec1f7a323675879657bb8> <http://purl.org/dc/terms/accessRights> <http://data.open.ac.uk/mudow/ontology/access/public> .
@@ -3097,7 +3091,7 @@
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://purl.org/dc/terms/identifier> "ad45805300d2b2f1ce6d38eddba228ae" .
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> .
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> .
-<http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://dbpedia.org/ontology/projectObjective> "study or performance (including commercial recordings) " .
+<http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://dbpedia.org/ontology/projectObjective> "study or performance (including commercial recordings)" .
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://www.w3.org/2004/02/skos/core#example> <http://epapers.bham.ac.uk/1679/> .
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/ad45805300d2b2f1ce6d38eddba228ae> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/aa11410095a99abec522738af6b9221c> .
@@ -3809,8 +3803,8 @@
 <http://data.open.ac.uk/mudow/bd459503f11e71e0d23e83c32edc54b7> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/9f99697c78e088cb04e67afd7a9d1068> .
 <http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://www.w3.org/2000/01/rdf-schema#label> "CCARH Humdrum Portal" .
-<http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://purl.org/dc/terms/description> "A collection of PDF/HTML representation of humdrum notated music and links to resources of a Humdrum toolkit " .
-<http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of PDF/HTML representation of humdrum notated music and links to resources of a Humdrum toolkit " .
+<http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://purl.org/dc/terms/description> "A collection of PDF/HTML representation of humdrum notated music and links to resources of a Humdrum toolkit" .
+<http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of PDF/HTML representation of humdrum notated music and links to resources of a Humdrum toolkit" .
 <http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://xmlns.com/foaf/0.1/homepage> <http://humdrum.ccarh.org/> .
 <http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://purl.org/dc/terms/identifier> "0e3e4568179767cb214f2e58699f415a" .
 <http://data.open.ac.uk/mudow/0e3e4568179767cb214f2e58699f415a> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/ff6bcdc21be4f578085b6b756485b2bc> .
@@ -3956,7 +3950,6 @@
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://purl.org/dc/terms/identifier> "2fa8a058725220e428775f461e837857" .
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> .
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> .
-<http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://dbpedia.org/ontology/projectObjective> " " .
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://www.w3.org/2004/02/skos/core#example> <http://www.cmme.org/database/pieces/15> .
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/fb605c24c3dabf3cc85595619ffccbe3> .
 <http://data.open.ac.uk/mudow/2fa8a058725220e428775f461e837857> <http://purl.org/spar/datacite/hasGeneralResourceType> <http://data.open.ac.uk/mudow/type/33fcf2b3ec4686d9cd06051c726d0ba2> .
@@ -5185,12 +5178,12 @@
 <http://data.open.ac.uk/mudow/405d1993896854e403e2123a4f6467bf> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/64fef5598cf33db91eb26af8f4cbaa93> <http://www.w3.org/2000/01/rdf-schema#label> "GNU-FDL" .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
-<http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2000/01/rdf-schema#label> "Project Gutenberg Sheet Music Project " .
+<http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2000/01/rdf-schema#label> "Project Gutenberg Sheet Music Project" .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/dc/terms/description> "Has over 30 public domain scores available for free download in MusicXML format, including the Beethoven string quartets." .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2000/01/rdf-schema#comment> "Has over 30 public domain scores available for free download in MusicXML format, including the Beethoven string quartets." .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://xmlns.com/foaf/0.1/homepage> <http://www.gutenberg.org/wiki/Gutenberg:The_Sheet_Music_Project> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/dc/terms/identifier> "dce09d24af5e26dd1aceedb6566013df" .
-<http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> .
+<http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/381afe98597e6dc71cb7a55c31c78379> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/79b2ee712aab57f08e8aef8a24b02676> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2004/02/skos/core#example> <http://www.gutenberg.org/ebooks/4949> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/18955383e7350ac7ec13b79a66f98f77> .
@@ -5223,6 +5216,7 @@
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/770a16ae8f4ce32d63a0a72d93e54bc9> .
 <http://data.open.ac.uk/mudow/dce09d24af5e26dd1aceedb6566013df> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
+<http://data.open.ac.uk/mudow/381afe98597e6dc71cb7a55c31c78379> <http://www.w3.org/2000/01/rdf-schema#label> "Project Gutenberg Sheet Music Project" .
 <http://data.open.ac.uk/mudow/651fa079d058b7fa75667ea43ad1b46d> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/651fa079d058b7fa75667ea43ad1b46d> <http://www.w3.org/2000/01/rdf-schema#label> "New Hymns for Worship" .
 <http://data.open.ac.uk/mudow/651fa079d058b7fa75667ea43ad1b46d> <http://purl.org/dc/terms/description> "Dave Marney\u2019s  site offer hymns composed by Marney and friends for free download as MusicXML files." .
@@ -5642,8 +5636,8 @@
 <http://data.open.ac.uk/mudow/8eaa86417c7551450c3af1c02bdfc35b> <http://purl.org/dc/terms/license> <http://data.open.ac.uk/mudow/d41d8cd98f00b204e9800998ecf8427e> .
 <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://www.w3.org/2000/01/rdf-schema#label> "Gaylord Special Collections, Music (Washington University Libraries)" .
-<http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://purl.org/dc/terms/description> "Sheet music collections part of the Digital Library of Washington University " .
-<http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://www.w3.org/2000/01/rdf-schema#comment> "Sheet music collections part of the Digital Library of Washington University " .
+<http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://purl.org/dc/terms/description> "Sheet music collections part of the Digital Library of Washington University" .
+<http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://www.w3.org/2000/01/rdf-schema#comment> "Sheet music collections part of the Digital Library of Washington University" .
 <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://xmlns.com/foaf/0.1/homepage> <http://digital.wustl.edu/s/shm/index.html> .
 <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://purl.org/dc/terms/identifier> "8b87fd09c4aef4919d0e9d3da9a27fd8" .
 <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/8b87fd09c4aef4919d0e9d3da9a27fd8> .
@@ -6849,7 +6843,7 @@
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://purl.org/dc/terms/identifier> "84e10ac8b68911f73929a57b7c23151f" .
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> .
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/52c752f46e29bfb84c08a57a3ceb693e> .
-<http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://dbpedia.org/ontology/projectObjective> "comparative studies " .
+<http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://dbpedia.org/ontology/projectObjective> "comparative studies" .
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://www.w3.org/2004/02/skos/core#example> <http://dme.mozarteum.at/DME/libretti-edition/wrkliste.php?sec=libedi&l=2> .
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/4c691ddbbd7f0bada7c6c65303e6bdbd> .
 <http://data.open.ac.uk/mudow/84e10ac8b68911f73929a57b7c23151f> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/dc23e34da2f9ca08d122b13758ea2518> .
@@ -8519,8 +8513,8 @@
 <http://data.open.ac.uk/mudow/b0221115b000683b9b66a80ef0a4d0c4> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://www.w3.org/2000/01/rdf-schema#label> "Albert Schatz Collection (Library of Congress)" .
-<http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://purl.org/dc/terms/description> "The Rostock music dealer Albert Schatz (1839-1910) intended to write a history of opera based on primary sources. Although this goal was not realized, the donation of his sources and notes to the Library of Congress more than a century ago (1908) has long been a valuable offline resource. Scanned copies of more than 12,000 libretti, primarily representing Italian, French, and German prints of the seventeenth through nineteenth centuries, have now been placed online. " .
-<http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://www.w3.org/2000/01/rdf-schema#comment> "The Rostock music dealer Albert Schatz (1839-1910) intended to write a history of opera based on primary sources. Although this goal was not realized, the donation of his sources and notes to the Library of Congress more than a century ago (1908) has long been a valuable offline resource. Scanned copies of more than 12,000 libretti, primarily representing Italian, French, and German prints of the seventeenth through nineteenth centuries, have now been placed online. " .
+<http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://purl.org/dc/terms/description> "The Rostock music dealer Albert Schatz (1839-1910) intended to write a history of opera based on primary sources. Although this goal was not realized, the donation of his sources and notes to the Library of Congress more than a century ago (1908) has long been a valuable offline resource. Scanned copies of more than 12,000 libretti, primarily representing Italian, French, and German prints of the seventeenth through nineteenth centuries, have now been placed online." .
+<http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://www.w3.org/2000/01/rdf-schema#comment> "The Rostock music dealer Albert Schatz (1839-1910) intended to write a history of opera based on primary sources. Although this goal was not realized, the donation of his sources and notes to the Library of Congress more than a century ago (1908) has long been a valuable offline resource. Scanned copies of more than 12,000 libretti, primarily representing Italian, French, and German prints of the seventeenth through nineteenth centuries, have now been placed online." .
 <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://xmlns.com/foaf/0.1/homepage> <https://www.loc.gov/collections/albert-schatz/about-this-collection> .
 <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://purl.org/dc/terms/identifier> "41d81d9699501636f177ced94b85298e" .
 <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/41d81d9699501636f177ced94b85298e> .
@@ -11228,8 +11222,8 @@
 <http://data.open.ac.uk/mudow/8a0152fe0d162b410de71d7401c11881> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/770a16ae8f4ce32d63a0a72d93e54bc9> .
 <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://www.w3.org/2000/01/rdf-schema#label> "MusicalTheatreScores" .
-<http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://purl.org/dc/terms/description> "Repository of crowdsourced musical theatre resources " .
-<http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://www.w3.org/2000/01/rdf-schema#comment> "Repository of crowdsourced musical theatre resources " .
+<http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://purl.org/dc/terms/description> "Repository of crowdsourced musical theatre resources" .
+<http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://www.w3.org/2000/01/rdf-schema#comment> "Repository of crowdsourced musical theatre resources" .
 <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://xmlns.com/foaf/0.1/homepage> <https://www.reddit.com/r/MusicalTheatreScores/> .
 <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://purl.org/dc/terms/identifier> "911a6ba864128a3a9604862b7ac2a5b0" .
 <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/911a6ba864128a3a9604862b7ac2a5b0> .
@@ -11362,12 +11356,12 @@
 <http://data.open.ac.uk/mudow/89ca02925518b62f37deb96ecd9ad086> <http://data.open.ac.uk/mudow/ontology/situation/task> <http://data.open.ac.uk/mudow/fb7fdc5da0266b8a37550819001d1f09> .
 <http://data.open.ac.uk/mudow/89ca02925518b62f37deb96ecd9ad086> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
-<http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2000/01/rdf-schema#label> "WWU Music Score Portal " .
+<http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2000/01/rdf-schema#label> "WWU Music Score Portal" .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/dc/terms/description> "Web application to perform SPARQL queries related to melodies" .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2000/01/rdf-schema#comment> "Web application to perform SPARQL queries related to melodies" .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://xmlns.com/foaf/0.1/homepage> <http://linkeddata.uni-muenster.de/musicportal/> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/dc/terms/identifier> "2631c3dfc969e2e03413f5327b5752aa" .
-<http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> .
+<http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/cerif/frapo/isOutputOf> <http://data.open.ac.uk/mudow/c86d4143650c4a1ef71dc6b8e2a72de8> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/spar/fabio/hasSubjectTerm> <http://data.open.ac.uk/mudow/f9a4e89526296686a90888ffcdec9059> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/4c691ddbbd7f0bada7c6c65303e6bdbd> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://www.w3.org/2004/02/skos/core#related> <http://data.open.ac.uk/mudow/6a7159aaf1a1cac1e2b08b3a25c1828d> .
@@ -11401,6 +11395,7 @@
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/1ca30206ab61b9d12eb9875c13db401b> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/48e18030578affd05387298cb4ef84e5> .
 <http://data.open.ac.uk/mudow/2631c3dfc969e2e03413f5327b5752aa> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/770a16ae8f4ce32d63a0a72d93e54bc9> .
+<http://data.open.ac.uk/mudow/c86d4143650c4a1ef71dc6b8e2a72de8> <http://www.w3.org/2000/01/rdf-schema#label> "WWU Music Score Portal" .
 <http://data.open.ac.uk/mudow/d63e6f85f0c8fd8a62b154408fe54bad> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
 <http://data.open.ac.uk/mudow/d63e6f85f0c8fd8a62b154408fe54bad> <http://www.w3.org/2000/01/rdf-schema#label> "SMuFL" .
 <http://data.open.ac.uk/mudow/d63e6f85f0c8fd8a62b154408fe54bad> <http://purl.org/dc/terms/description> "SMuFL is a specification that provides a standard way of mapping the thousands of musical symbols required by conventional music notation into the Private Use Area in Unicode\u2019s Basic Multilingual Plane for a single (format-independent) font." .
@@ -11609,7 +11604,7 @@
 <http://data.open.ac.uk/mudow/45cdf8e5c8c6d4afe7d13a30e4a38d47> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/48e18030578affd05387298cb4ef84e5> .
 <http://data.open.ac.uk/mudow/45cdf8e5c8c6d4afe7d13a30e4a38d47> <http://purl.org/dc/terms/audience> <http://data.open.ac.uk/mudow/770a16ae8f4ce32d63a0a72d93e54bc9> .
 <http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://www.w3.org/2004/02/skos/core#note> "Inserted by MD" .
-<http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://www.w3.org/2000/01/rdf-schema#label> "MusixMatch  " .
+<http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://www.w3.org/2000/01/rdf-schema#label> "MusixMatch" .
 <http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://purl.org/dc/terms/description> "The widest catalog of lyrics" .
 <http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://www.w3.org/2000/01/rdf-schema#comment> "The widest catalog of lyrics" .
 <http://data.open.ac.uk/mudow/8851385a34c57031977528b85ec3d09f> <http://xmlns.com/foaf/0.1/homepage> <https://www.musixmatch.com/it> .
