@@ -43,7 +43,7 @@ PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
 SELECT ?label (count(DISTINCT ?resource) AS ?count) 
 FROM &lt;http://data.open.ac.uk/context/mudow&gt;
 WHERE {
-   	?resource <http://purl.org/spar/datacite/hasGeneralResourceType> ?type .
+   	?resource &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?type .
    	?type rdfs:label ?label .
 }
 
