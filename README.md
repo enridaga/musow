@@ -1,4 +1,4 @@
-# 
+
 # MuDOW: Musical Data on the web
 
 MuDOW is a survey on musical data available on the web and a RDF dataset including results of the survey. 
