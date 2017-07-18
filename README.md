@@ -176,6 +176,7 @@ WHERE {
   filter(?typeLabel="Catalogue") .
   ?resource &lt;http://purl.org/spar/fabio/hasSubjectTerm&gt; ?catalogue
 }
+GROUP BY ?catalogueLabel  
 </pre>
 
 **CT2.** What's the focus of resources gathered by means of catalogs?
