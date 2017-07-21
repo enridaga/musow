@@ -4,7 +4,7 @@
 MuDOW is a survey on musical data available on the web and a RDF dataset including results of the survey. 
 Here you can find the script to generate the RDF dataset from the managed CSV and several SPARQL queries.
 
-MuDOW RDF dataset can be queried at [https://data.open.ac.uk/sparql](https://data.open.ac.uk/sparql). Here an example resource for starting browsing the dataset: [MIDI Linked Dataset](http://data.open.ac.uk/mudow/2c52e5179258305c74fcc637615eb123). 
+MuDOW RDF dataset can be queried at [https://data.open.ac.uk/sparql](https://data.open.ac.uk/sparql). Here an example resource for starting browsing the dataset: [MIDI Linked Dataset](http://data.open.ac.uk/mudow/2c52e5179258305c74fcc637615eb123). We also published a [RESTful API](http://grlc.io/api/albertmeronyo/mudow-queries) to reproduce results.
 
 # A guide for querying MuDOW with SPARQL
 
@@ -111,7 +111,7 @@ GROUP BY ?audience
 ORDER BY ?count
 </pre> 
 
-**GQ7.** In which kind of resources are researchers interested? 
+**GQ7.** In which kind of sources are researchers interested? 
 
 Results refer to resources that provide audio files, metadata or symbolic notation, as described in GQ5.
 
@@ -215,7 +215,7 @@ WHERE {
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?type .
    ?type rdfs:label ?resourceTypeLabel .
 }
-GROUP BY ?categoryLabel ?count
+GROUP BY ?resourceTypeLabel ?count
 ORDER BY ?count
 </pre>
 
@@ -289,7 +289,10 @@ FROM &lt;http://data.open.ac.uk/context/mudow&gt;
 WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
+
 }
 
 </pre>
@@ -304,7 +307,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/extent&gt; ?extent .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?extent rdfs:label ?extentLabel .
 }
 GROUP BY ?extentLabel ?count
@@ -321,7 +326,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?format rdfs:label ?formatLabel .
 }
 GROUP BY ?formatLabel ?count
@@ -339,7 +346,9 @@ WHERE {
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/extent&gt; ?extent ; 
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?extent rdfs:label ?extentLabel . ?format rdfs:label ?formatLabel .
 }
 GROUP BY ?extentLabel ?formatLabel ?count
@@ -357,7 +366,9 @@ WHERE {
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://schema.org/featureList&gt; 
                   &lt;http://data.open.ac.uk/mudow/ontology/feature/interoperable&gt; .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
 }
 </pre>
 
@@ -373,7 +384,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    filter( str(?format) IN ("http://data.open.ac.uk/mudow/pdf" , "http://data.open.ac.uk/mudow/jpg", 
     "http://data.open.ac.uk/mudow/tiff", "http://data.open.ac.uk/mudow/iiif", "http://data.open.ac.uk/mudow/gif", "http://data.open.ac.uk/mudow/png", "http://data.open.ac.uk/mudow/djvu"))
 }
@@ -389,7 +402,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    filter( str(?format) IN ("http://data.open.ac.uk/mudow/midi" , "http://data.open.ac.uk/mudow/mp3", 
     "http://data.open.ac.uk/mudow/audio", "http://data.open.ac.uk/mudow/video", "http://data.open.ac.uk/mudow/finale", "http://data.open.ac.uk/mudow/sibelius", "http://data.open.ac.uk/mudow/flac"))
 }
@@ -405,7 +420,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    filter( str(?format) IN ("http://data.open.ac.uk/mudow/musicxml" , "http://data.open.ac.uk/mudow/xml", 
     "http://data.open.ac.uk/mudow/rdf", "http://data.open.ac.uk/mudow/mei/xml", "http://data.open.ac.uk/mudow/cap/xml", "http://data.open.ac.uk/mudow/humdrum", "http://data.open.ac.uk/mudow/kern", "http://data.open.ac.uk/mudow/lilypond", "http://data.open.ac.uk/mudow/musedata", "http://data.open.ac.uk/mudow/musescore", "http://data.open.ac.uk/mudow/myr", "http://data.open.ac.uk/mudow/noteworthy", "http://data.open.ac.uk/mudow/py", "http://data.open.ac.uk/mudow/ram", "http://data.open.ac.uk/mudow/mu2"))
 }
@@ -421,7 +438,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://www.w3.org/ns/oa#hasScope&gt; ?scope .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?scope rdfs:label ?scopeLabel .
 }
 GROUP BY ?scopeLabel ?count
@@ -439,7 +458,9 @@ WHERE {
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/extent&gt; ?extent ; 
              &lt;http://www.w3.org/ns/oa#hasScope&gt; ?scope .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?scope rdfs:label ?scopeLabel . ?extent rdfs:label ?extentLabel .
 }
 GROUP BY ?scopeLabel ?extentLabel ?count
@@ -457,7 +478,9 @@ WHERE {
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://www.w3.org/ns/oa#hasScope&gt; ?scope ; 
              &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?format rdfs:label ?formatLabel .
    ?scope rdfs:label ?scopeLabel .
 }
@@ -477,7 +500,9 @@ WHERE {
              &lt;http://www.w3.org/ns/oa#hasScope&gt; ?scope ; 
              &lt;http://schema.org/featureList&gt; 
                 &lt;http://data.open.ac.uk/mudow/ontology/feature/symbolic-machine-readable&gt; .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?scope rdfs:label ?scopeLabel .
 }
 GROUP BY ?scopeLabel ?count
@@ -496,7 +521,9 @@ WHERE {
              &lt;http://purl.org/dc/terms/extent&gt; ?extent ; 
              &lt;http://schema.org/featureList&gt; 
                   &lt;http://data.open.ac.uk/mudow/ontology/feature/symbolic-machine-readable&gt; .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?scope rdfs:label ?scopeLabel . ?extent rdfs:label ?extentLabel
 } 
 GROUP BY ?extentLabel ?count
@@ -513,7 +540,9 @@ WHERE {
    ?resource rdfs:label ?resourceLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://xmlns.com/foaf/0.1/primaryTopic&gt; ?feature .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?feature rdfs:label ?featureLabel .
 }
 GROUP BY ?featureLabel ?count
@@ -530,7 +559,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://dbpedia.org/ontology/category&gt; ?category .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?category rdfs:label ?categoryLabel .
 }
 GROUP BY ?categoryLabel ?count
@@ -546,7 +577,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://data.open.ac.uk/mudow/ontology/access/type&gt; "Free" . 
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
 }
 </pre>
 
@@ -560,7 +593,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/license&gt; ?license .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?license rdfs:label ?licenseLabel .
 }
 GROUP BY ?licenseLabel ?count
@@ -577,7 +612,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/audience&gt; ?typeaudience .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?typeaudience rdfs:label ?audience . 
 }
 GROUP BY ?audience ?count
@@ -594,7 +631,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://www.w3.org/ns/oa#hasPurpose&gt; ?purpose .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?purpose rdfs:label ?purposeLabel .
 }
 GROUP BY ?purposeLabel ?count
@@ -611,7 +650,9 @@ WHERE {
    ?resource rdfs:label ?catalogueLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
              &lt;http://purl.org/dc/terms/audience&gt; ?typeaudience .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?typeaudience rdfs:label ?audience . filter(?audience IN ("amateurs", "listeners")) .
 }
 </pre>
@@ -625,7 +666,9 @@ FROM &lt;http://data.open.ac.uk/context/mudow&gt;
 WHERE {
    ?resource rdfs:label ?resourceLabel ; 
              &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType .
-   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel IN ("Repository", "Digital library")) .
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Repository")} 
+      UNION 
+   {?resourceType rdfs:label ?typeLabel . filter(?typeLabel="Digital Library")} .
    ?resource ^&lt;http://www.w3.org/2004/02/skos/core#related&gt; ?otherResource .
 }
 GROUP BY ?resourceLabel ?count
@@ -894,6 +937,61 @@ WHERE {
    ?resourceType rdfs:label ?typeLabel . filter(?typeLabel='Dataset') .
    ?task rdfs:label ?taskLabel .
    ?format rdfs:label ?formatLabel . filter(?formatLabel='RDF').
+}
+GROUP BY ?taskLabel ?count
+ORDER BY DESC(?count)
+</pre>
+
+## Linked Open Datasets
+
+**LD1** What’s the main source of LOD on music?
+
+<pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT ?categoryLabel (count(DISTINCT ?resource) AS ?count)
+WHERE {
+   ?resource &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
+             &lt;http://xmlns.com/foaf/0.1/primaryTopic&gt; ?feature ;
+             &lt;http://dbpedia.org/ontology/category&gt; ?category ;
+             &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
+   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel='Dataset') .
+   ?format rdfs:label ?formatLabel . filter(?formatLabel='RDF')
+   ?category rdfs:label ?categoryLabel .
+   ?feature rdfs:label ?featureLabel .
+}
+GROUP BY ?categoryLabel ?count
+ORDER BY DESC(?count)
+</pre>
+
+**LD2** Which services they provide?
+
+<pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT ?feautureListLabel (count(DISTINCT ?resource) AS ?count)
+WHERE {
+   ?resource &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
+             &lt;http://schema.org/featureList&gt; ?feautureList ;
+             &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format .
+   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel='Dataset') .
+   ?feautureList rdfs:label ?feautureListLabel .
+   ?format rdfs:label ?formatLabel . filter(?formatLabel='RDF') .
+}
+GROUP BY ?feautureListLabel ?count
+ORDER BY DESC(?count)
+</pre>
+
+**LD3** In which tasks or situation are they used?
+
+<pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT ?taskLabel (count(DISTINCT ?resource) AS ?count)
+WHERE {
+   ?resource &lt;http://purl.org/spar/datacite/hasGeneralResourceType&gt; ?resourceType ;
+             &lt;http://data.open.ac.uk/mudow/ontology/scope/format&gt; ?format ;
+             &lt;http://data.open.ac.uk/mudow/ontology/situation/task&gt; ?task .
+   ?resourceType rdfs:label ?typeLabel . filter(?typeLabel='Dataset') . 
+   ?format rdfs:label ?formatLabel . filter(?formatLabel='RDF').
+   ?task rdfs:label ?taskLabel .
 }
 GROUP BY ?taskLabel ?count
 ORDER BY DESC(?count)
