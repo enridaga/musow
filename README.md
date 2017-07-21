@@ -16,6 +16,7 @@ The following selection of SPARQL queries is meant to be a useful guide to the u
 * [Catalogs](#catalogs)
 * [Digital libraries and repositories](#digital-libraries-and-repositories)
 * [Datasets](#datasets)
+* [Datasets](#linked-open-datasets)
 * [Digital editions](#digital-editions)
 * [Services and Sofwares](#services-and-softwares)
 * [Schemas and ontologies](#schemas-and-ontologies)
@@ -944,7 +945,7 @@ ORDER BY DESC(?count)
 
 ## Linked Open Datasets
 
-**LD1** What’s the main source of LOD on music?
+**LD1.** What’s the main source of LOD on music?
 
 <pre>
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
@@ -963,7 +964,7 @@ GROUP BY ?categoryLabel ?count
 ORDER BY DESC(?count)
 </pre>
 
-**LD2** Which services they provide?
+**LD2.** Which services they provide?
 
 <pre>
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
@@ -980,7 +981,7 @@ GROUP BY ?feautureListLabel ?count
 ORDER BY DESC(?count)
 </pre>
 
-**LD3** In which tasks or situation are they used?
+**LD3.** In which tasks or situation are they used?
 
 <pre>
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
