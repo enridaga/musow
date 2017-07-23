@@ -67,7 +67,7 @@ function d($dimension, $type){
 	global $types,$dimensions;
 	return ($dimensions[$dimension][array_search($type, $types)] == 'Y');
 }
-$ns = "http://data.open.ac.uk/mudow/";
+$ns = "http://data.open.ac.uk/musow/";
 if ($handle) {
 	$first = TRUE;
 	global $index;
