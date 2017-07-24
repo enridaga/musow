@@ -10,6 +10,7 @@
 @prefix mo: <http://data.open.ac.uk/meta/ontology/> .
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix doap: <http://usefulinc.com/ns/doap#>.
 
 <http://data.open.ac.uk/context/musow>
   rdfs:label "musoW" ;
@@ -18,7 +19,7 @@
   dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;
   dcterms:description "The musoW catalogue of musical data on the Web." ;
   prov:wasDerivedFrom <https://github.com/enridaga/musow> ;
-  owl:versionInfo "1.0-RC1 - " ;
+  owl:versionInfo "1.0-RC1" ;
   doap:revision "1.0-RC1.201707240807" ;
   doap:release "1.0-RC1"
   .
