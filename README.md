@@ -1,12 +1,12 @@
 
-# MuSOW: Musical Data on the web
+# musoW: Musical Data on the web
 
-MuSOW is a survey on musical data available on the web and a RDF dataset including results of the survey.
+**musoW** is a survey on musical data available on the web and a RDF dataset including results of the survey.
 Here you can find the script to generate the RDF dataset from the managed CSV and several SPARQL queries.
 
-MuSOW RDF dataset can be queried at [https://data.open.ac.uk/sparql](https://data.open.ac.uk/sparql). Here an example resource for starting browsing the dataset: [MIDI Linked Dataset](http://data.open.ac.uk/musow/2c52e5179258305c74fcc637615eb123). We also published a [RESTful API](http://grlc.io/api/albertmeronyo/musow-queries) to reproduce results.
+The **musoW** RDF dataset can be queried at [https://data.open.ac.uk/sparql](https://data.open.ac.uk/sparql). Here an example resource for starting browsing the dataset: [MIDI Linked Dataset](http://data.open.ac.uk/musow/2c52e5179258305c74fcc637615eb123). We also published a [RESTful API](http://grlc.io/api/albertmeronyo/musow-queries) to reproduce results.
 
-# A guide for querying MuSOW with SPARQL
+# A guide for querying musoW with SPARQL
 
 The following selection of SPARQL queries is meant to be a useful guide to the user who wants to discover  musical data available on the web and how to reuse it!
 
@@ -25,7 +25,7 @@ The following selection of SPARQL queries is meant to be a useful guide to the u
 
 ## General queries
 
-The following examples show an overview of resources gathered and described in MuSOW survey.
+The following examples show an overview of resources gathered and described in musoW survey.
 
 **GQ1.** How many resources have been included in the survey?
 
@@ -163,7 +163,7 @@ WHERE {
 
 ## Catalogs
 
-Among the resources gathered in the survey there are catalogs of online resources for musicologists, musicians and researchers in general. These ones have been used as sources for retrieving most of of the resources described in MuSOW.
+Among the resources gathered in the survey there are catalogs of online resources for musicologists, musicians and researchers in general. These ones have been used as sources for retrieving most of of the resources described in musoW.
 
 **CT1.** How many resources have been gathered by means of catalogs?
 
