@@ -18,7 +18,7 @@ The following selection of SPARQL queries is meant to be a useful guide to the u
 * [Datasets](#datasets)
 * [Linked Open Datasets](#linked-open-datasets)
 * [Digital editions](#digital-editions)
-* [Services and Sofwares](#services-and-softwares)
+* [Services and Softwares](#services-and-softwares)
 * [Schemas and ontologies](#schemas-and-ontologies)
 * [Formats](#formats)
 * [About symbolic notation](#about-symbolic-notation)
