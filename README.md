@@ -16,7 +16,7 @@ The following selection of SPARQL queries is meant to be a useful guide to the u
 * [Catalogs](#catalogs)
 * [Digital libraries and repositories](#digital-libraries-and-repositories)
 * [Datasets](#datasets)
-* [Datasets](#linked-open-datasets)
+* [Linked Open Datasets](#linked-open-datasets)
 * [Digital editions](#digital-editions)
 * [Services and Sofwares](#services-and-softwares)
 * [Schemas and ontologies](#schemas-and-ontologies)
